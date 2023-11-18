@@ -23,7 +23,7 @@ function Steps() {
   function handlePrev() {
     if (step > 1) {
       // setStep(step - 1);
-      setStep((currentStep) => currentStep - 1);
+      setStep((currentStep) => currentStep - 1); //must be a callback where currentStep is the current state
     }
   }
 
